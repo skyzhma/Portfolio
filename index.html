@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Portfolio Website-Brad</title>
+  <title>Zhihao Ma's Homepage</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="zhihao">
+  
   <!-- linking css file -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./files/style.css">
   <!-- tailwand css CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- font awesome -->
@@ -35,18 +37,106 @@
           </div>
         </div>
     </nav>
-    
+        
+    <div class="flex items-center justify-center flex-col py-14 p-0">
+      <img src="./avatar.jpg" class="w-40 rounded-full"  alt="alternate text">
+      <p class="py-1 text-xl font-bold">Zhihao Ma</p>
+      <p class="py-2">Welcome to my blog</p>
+      <div class="flex items-center justify-center py-2">
+        <a href="https://github.com/skyzhma" target="_blank"><img class="social-photo" src="./images/github.png"></a>
+        <a href="https://www.linkedin.com/in/mazhihao2022/" target="_blank"><img class="social-photo" src="./images/linkedin.png"></a>
+        <a href="https://www.linkedin.com/in/mazhihao2022/" target="_blank"><img class="social-photo" src="./images/wechat.png"></a>
+        <a href="mailto:zhihaoma@usc.edu" target="_blank"><img class="social-photo" src="./images/email.png"></a>
+        <a href="./files/resume.pdf" target="_blank"><img class="social-photo" src="./images/cv.png"></a>
+      </div>
 
-    <div class="justify-center items-center flex-row">
-        <div>
-            <img src="./images/about.jpeg" class="rounded-full"  alt="alternate text">
-        </div>
-        <div>
-            <p>Zhihao Ma</p>
-        </div>
+    </div>
+        
+    <!--==========================================
+                      About
+    ===========================================-->
+    <div class="container flex flex-col mx-auto mt-2 px-44">
+      <div>
+        <div class="text-2xl">About</div>
+        <hr>
+      </div>
+
+      <div class="text-xl py-4">
+        Hi everyone! My name is Zhihao Ma. I'm a master student studying compute science at the University of Southern California who's passionate about distributed system and machine learning.
+      </div>
     </div>
 
+    <div class="container flex flex-col mx-auto mt-2 px-44">
+      <div>
+        <div class="text-2xl">🎓 Education</div>
+        <hr>
+      </div>
+
+      
+      <div class="flex flex-col px-14">
+        
+        <div class="flex py-8">
+          <img src="./images/sysu.png" style="width:120px;height:120px;">
+          <div class="flex flex-col mx-auto py-4">
+            <div><b>B.E.</b> degree from School of Intelligent System Engineering, Sun Yat-Sen University</div>
+            <div>Traffic Engineering</div>
+            <div>Sep.2015 - July.2019</div>
+          </div>
+        </div>
+
+        <div class="flex">
+          <img src="./images/sysu.png" style="width:120px;height:120px;">
+          <div class="flex flex-col px-40 py-4">
+            <div><b>M.S.</b> degree from School of Computer Science, Sun Yat-Sen University</div>
+            <div>Computer Technology</div>
+            <div>Sep.2019 - July.2022</div>
+          </div>
+        </div>
+
+        <div class="flex py-8">
+          <img src="./images/USC.png" style="width:120px;height:120px;">
+          <div class="flex flex-col px-40 py-4">
+            <div><b>M.S.</b> degree from School of Computer Science, University of Southern California</div>
+            <div>Computer Science</div>
+            <div>Sep.2022 - May.2024</div>
+          </div>
+        </div>
+
+      </div>
+
+
     
+      
+    
+    </div>
+
+
+    <!--==========================================
+                      Footer
+    ===========================================-->
+    
+    <!-- <div class="flex flex-col">
+      <div class="flex-grow"></div>
+      <footer class="bg-gray-100 text-black text-center py-4">
+          <div class="container mx-auto">
+              <p>&copy; Zhihao Ma. All rights reserved.</p>
+          </div>
+      </footer>
+    </div> -->
+    <!-- <footer class="flex items-center justify-center">
+      <div class="center text-black">
+        Copyright © Zhihao Ma 2023
+      </div>  
+    </footer> -->
+
+    <!-- <div class="flex flex-col py-28">
+      <footer class="text-white text-center py-4">
+          <div class="container mx-auto text-black">
+              <p> Copyright &copy; Zhihao Ma 2023</p>
+          </div>
+      </footer> -->
+  </div>
+
     <!-- load javascript after loading all html content -->
     <script src="script/script.js"></script>
 
